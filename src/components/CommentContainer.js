@@ -93,7 +93,7 @@ const commentData = [{
   ]
 
 
-const CommentContainer = ({data}) => {
+const CommentContainer = () => {
   return (
     <div className='p-3 m-3'>
       
