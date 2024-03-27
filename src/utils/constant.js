@@ -6,4 +6,3 @@ export const YOUTUBE_API =
 
 export const YOUTUBE_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
-console.log(process.env.REACT_APP_YOUTUBEAPI_KEY)
