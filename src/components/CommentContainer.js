@@ -3,7 +3,7 @@ import CommentList from './CommentList'
 
 const commentData = [{
     name : "Manimaran",
-    comment : "Learning React js, to get placed in product based company like FAANG or Atlassian",
+    comment : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     replies : [
         {
             name : "Manimaran",

@@ -36,7 +36,9 @@ const Head = () => {
 },[searchQuery])
 
   const getSearchQuery =  async ()=>{
-    const data = await fetch(YOUTUBE_SEARCH_API+searchQuery)
+    const data = await fetch(""+searchQuery,{
+      mode : "no-cors"
+    })
     const json = await data.json();
     // console.log("API => "+searchQuery)
     setSuggestions(json[1])

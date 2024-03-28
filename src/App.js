@@ -9,6 +9,7 @@ import MainContainer from './components/MainContainer';
 import Watch from './components/Watch';
 
 
+
 const approuter = createBrowserRouter([
   {
     path: "/",
@@ -26,6 +27,7 @@ const approuter = createBrowserRouter([
   }
 ])
 function App() {
+  
   return (
     <Provider store={store}>
     <div>

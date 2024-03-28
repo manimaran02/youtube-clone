@@ -63,7 +63,7 @@ const LiveChat = () => {
   alt="user-icon" /> : ""}
       <input className='mx-4 w-2/3 p-2 rounded-full' onChange={(e)=>setliveMessage(e.target.value)} value={liveMessage}  type='text' placeholder='Chat...'/>
 
-      <button className='px-2 py-1 bg-green-300 rounded-full'>Send</button>
+      <button className='px-3 py-1 bg-green-300 rounded-full'>Send</button>
 
       </>
     </form>
